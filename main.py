@@ -5,4 +5,4 @@ with st.chat_message("assistant"):
 
 prompt = st.chat_input("Say Something...")
 if prompt:
-    st.write(f"User has sent the following message: {prompt}")
+    st.write(f"Teja has sent the following message: {prompt}")
