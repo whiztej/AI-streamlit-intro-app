@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.title("Chat With Teja")
+
 with st.chat_message("assistant"):
     st.write("Hello Teja. Welcome!")
 
