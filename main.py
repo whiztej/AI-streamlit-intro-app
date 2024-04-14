@@ -1,6 +1,6 @@
 import streamlit as st
 
-with st.chat_message("assistant")
+with st.chat_message("assistant"):
     st.write("Hello Teja. Welcome!")
 
 prompt = st.chat_input("Say Something...")
