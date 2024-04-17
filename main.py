@@ -7,7 +7,7 @@ add_selectbox = st.sidebar.selectbox(
     ('Email', 'Phone')
 )
 
-rating_slider = st.sidebar.slider('Rate our chatbot',0,10,(1,2,3,4,5,6,7,8,9))
+rating_slider = st.sidebar.slider('Rate our chatbot',0,10)
 
 with st.chat_message("assistant"):
     st.write("Hello Teja. Welcome!")
