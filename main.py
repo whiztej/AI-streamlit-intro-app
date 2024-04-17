@@ -10,12 +10,6 @@ add_selectbox = st.sidebar.selectbox(
     ('Email', 'Home phone', 'Mobile phone')
 )
 
-
-add_slider = st.sidebar.slider(
-    'Select a range of values',
-    0.0, 100.0, (25.0, 75.0)
-)
-
 with st.chat_message("assistant"):
     st.write("Hello Teja. Welcome!")
 
